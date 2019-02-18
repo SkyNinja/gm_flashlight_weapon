@@ -79,6 +79,8 @@ end
 
 list.Set( "FlashlightTextures", "effects/flashlight001", { Name = "Default" } )
 list.Set( "FlashlightTextures", "effects/flashlight/flashlight001_l4d2", { Name = "Left 4 Dead" } )
+list.Set( "FlashlightTextures", "effects/flashlight/flashlight001_improved_fix", { Name = "Global Offensive Improved" } )
+list.Set( "FlashlightTextures", "effects/flashlight/flashlight_security001", { Name = "Global Offensive Security" } )
 list.Set( "FlashlightTextures", "effects/flashlight/flashlight_trinity", { Name = "Trinity Renderer" } )
 list.Set( "FlashlightTextures", "effects/flashlight/flashlight001_ronster", { Name = "Ronster's Flashlight" } )
 list.Set( "FlashlightTextures", "effects/flashlight/flashlight_horrible", { Name = "Horrible Flashlight" } )
