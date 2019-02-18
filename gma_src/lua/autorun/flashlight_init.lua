@@ -1,7 +1,7 @@
 
-givelight_cv = CreateConVar( "sv_givelight", "1", { FCVAR_ARCHIVE, FCVAR_DONTRECORD, FCVAR_SERVER_CAN_EXECUTE }, "Toggles spawing with the flashlight." )
+givelight_cv = CreateConVar( "sv_givelight", "1", { FCVAR_ARCHIVE, FCVAR_REPLICATED, FCVAR_DONTRECORD, FCVAR_SERVER_CAN_EXECUTE }, "Toggles spawing with the flashlight." )
 
-shl_convar = CreateConVar( "sv_shoulderlight", "0", { FCVAR_ARCHIVE, FCVAR_DONTRECORD, FCVAR_SERVER_CAN_EXECUTE }, "Toggles drawing the flashlight on pressing the flashlight bind." )
+shl_convar = CreateConVar( "sv_shoulderlight", "0", { FCVAR_ARCHIVE, FCVAR_REPLICATED, FCVAR_DONTRECORD, FCVAR_SERVER_CAN_EXECUTE }, "Toggles drawing the flashlight on pressing the flashlight bind." )
 
 CreateClientConVar( "cl_flashlight_texture", "effects/flashlight001", true, true, "Path to flashlight texture, set in the options menu." )
 CreateClientConVar( "cl_flashlight_r", "255", true, true, "0-255 Flashlight color's red component, set in the options menu." )
